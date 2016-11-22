@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_periodica"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cfgs2inf.taula.periodica">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="5dp">
+
+
+                <ImageButton
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    app:srcCompat="@drawable/h"
+                    android:id="@+id/h"
+                    android:onClick="btnh (periodica)" />
+            </TableRow>
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp">
+
+
+                <ImageButton
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    app:srcCompat="@drawable/li"
+                    android:id="@+id/li"
+                    android:onClick="btnli (periodica)" />
+
+                <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/be"
+                android:id="@+id/be"
+                    android:onClick=" btnbe (periodica)" />
+            </TableRow>
+
+        <TableRow
+            android:layout_width="50dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp">
+
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/na"
+                android:id="@+id/na"
+                android:onClick="btnna (periodica)" />
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/mg"
+                android:id="@+id/mg"
+                android:onClick="btnmg (periodica)" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp">
+
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/k"
+                android:id="@+id/k"
+                android:onClick="btnk (periodica)" />
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ca"
+                android:id="@+id/ca"
+                android:onClick="btnca (periodica)" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp">
+
+
+            <ImageButton
+
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/rb"
+                android:id="@+id/rb"
+                android:onClick=" btnrb (periodica)" />
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/sr"
+                android:id="@+id/sr"
+                android:onClick="btnsr (periodica)" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="5dp">
+
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/cs"
+                android:id="@+id/cs"
+                android:onClick="btncs (periodica)" />
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ba"
+                android:id="@+id/ba"
+                android:onClick="btnba (periodica)" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp">
+
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/fr"
+                android:id="@+id/fr"
+                android:onClick="btnfr (periodica)" />
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ra"
+                android:id="@+id/ra"
+                android:onClick="btnra (periodica)" />
+        </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>
